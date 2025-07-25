@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Define README content
-readme_content = """
 # 🔍 SVM Kernel Comparison on Non-Linear Data
 
 This project explores the performance of different SVM approaches on synthetic non-linear data (`make_moons` dataset). It also includes a comparison with Naive Bayes as a baseline model.
@@ -35,13 +32,13 @@ This project explores the performance of different SVM approaches on synthetic n
 
 | Model                         | Accuracy |
 |------------------------------|----------|
-| Linear SVM                   | xx%      |
-| RBF SVM                      | xx%      |
-| Polynomial Kernel SVM        | xx%      |
-| Polynomial Features + SVM    | xx%      |
-| Naive Bayes                  | xx%      |
+| Linear SVM                   | 90%      |
+| RBF SVM                      | 93%      |
+| Polynomial Kernel SVM        | 89%      |
+| Polynomial Features + SVM    | 98%      |
+| Naive Bayes                  | 90%      |
 
-> Replace `xx%` with your actual results.
+
 
 ## 📈 Visualizations
 
